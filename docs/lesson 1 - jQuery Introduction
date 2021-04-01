@@ -1,0 +1,16 @@
+lesson 1. Introduction:
+
+1. What is jQuery?
+- jQuery is a lightweight, "write less, do more", javascript Library
+- make it easier to use JS on website
+- The jQuery library contains the following features:
+
+HTML/DOM manipulation
+CSS manipulation
+HTML event methods
+Effects and animations
+AJAX
+Utilities
+
+2. Why jQuery?
+jQuery is probably the most popular, and also the most extendable.

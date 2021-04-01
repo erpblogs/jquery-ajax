@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+</head>
+<body>
+<button id="btn1">Click here</button>
+<script>
+    window.onload = function () {
+        var btn = document.getElementById('btn1');
+        btn.addEventListener('click', clickBtn);
+    }
+
+    function clickBtn() {
+        alert("Hello!");
+    }
+</script>
+</body>
+</html>
+

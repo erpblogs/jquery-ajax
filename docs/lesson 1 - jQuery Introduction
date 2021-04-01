@@ -14,3 +14,16 @@ Utilities
 
 2. Why jQuery?
 jQuery is probably the most popular, and also the most extendable.
+
+lesson 2. jQuery Get Started
+1. Adding jquery to your web pages
+There are several way to start using jQuery on your website.
+- Download jQuery form jQuery.com
+- Include jQuery from a CDN, like Google
+
+The jQuery library is a single JS file, you can reference it with the HTML <script> tag in side <head> section
+
+2. jQuery CDN
+If you don't want to download and host jQuery yourself, you can include it from a CDN (Content Delivery Network)
+Google is an example of someone who host jQuery:
+url: https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js

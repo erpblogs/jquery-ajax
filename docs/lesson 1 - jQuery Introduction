@@ -1,6 +1,6 @@
-lesson 1. Introduction:
+Lesson 1. Introduction:
 
-1. What is jQuery?
+1.1. What is jQuery?
 - jQuery is a lightweight, "write less, do more", javascript Library
 - make it easier to use JS on website
 - The jQuery library contains the following features:
@@ -12,18 +12,34 @@ Effects and animations
 AJAX
 Utilities
 
-2. Why jQuery?
+1.2. Why jQuery?
 jQuery is probably the most popular, and also the most extendable.
 
-lesson 2. jQuery Get Started
-1. Adding jquery to your web pages
+Lesson 2. jQuery Get Started
+2.1. Adding jquery to your web pages
 There are several way to start using jQuery on your website.
 - Download jQuery form jQuery.com
 - Include jQuery from a CDN, like Google
 
 The jQuery library is a single JS file, you can reference it with the HTML <script> tag in side <head> section
 
-2. jQuery CDN
+2.2. jQuery CDN
 If you don't want to download and host jQuery yourself, you can include it from a CDN (Content Delivery Network)
 Google is an example of someone who host jQuery:
 url: https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+
+3.1 jQuery Syntax
+The jQuery syntax is tailor-made for selecting HTML elements and performing some action on the element(s)
+tailor-made /ˌteɪlər ˈmeɪd/ thiết kế riêng
+
+Basic syntax is: $(selector).action()
+ A $ sign to define/access jQuery
+ A (selector) to "query (or find)" HTML element
+ A jQuery action() to be performed on the element(s)
+
+
+Example:
+$(this).hide() - hide the current element.
+$("p").hide() - hide all <p> elements.
+$("#test").hide() - hide all elements with id test.
+$(".test").hide() - hide all elements with id test.
